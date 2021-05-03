@@ -1,5 +1,5 @@
 # FPGA_VHDL_ORNEKLER
-Örnekler
+Her hafta güncelleme ile yeni örnekler ekklenecektir.
 Bu uygulamalar FPGA Basys3 kart geliştiricisi ile kodlanmaktadır.Vivado Xilinx Ise Webpack 14.7 sürümü kullanılmıştır. İçerisinde 
 -Veri Seçici Devre(Multiplexers)
 -Frekans Bölücü
