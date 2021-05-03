@@ -7,6 +7,6 @@ Bu uygulamalar FPGA Basys3 kart geliştiricisi ile kodlanmaktadır.Vivado Xilinx
 -Counter Devresi
 -Float Point Devreleri
 -Led Blink Uygulamaları
-İçerilerinde Testbench(Similasyonlar) bulunmaktadır.
+ve İçerilerinde Testbench(Similasyonlar) bulunmaktadır.
 Sorun yaşarsanız lütfen benimle iletişime geçiniz.
 Teşekkürler
