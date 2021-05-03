@@ -1,0 +1,3 @@
+vhdl isim_temp "Frekans_bolucu.vhd"
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "vhdl27.vhd"

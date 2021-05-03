@@ -1,0 +1,2 @@
+vhdl isim_temp "led1.vhd"
+vhdl isim_temp "test.vhd"

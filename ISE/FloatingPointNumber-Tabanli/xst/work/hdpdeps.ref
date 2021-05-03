@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/ipcore_dir/cikarici.vhd 2021/04/13.15:26:17 P.20131013
+EN work/cikarici 1618317639 \
+      FL C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/ipcore_dir/cikarici.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cikarici/cikarici_a 1618317640 \
+      FL C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/ipcore_dir/cikarici.vhd \
+      EN work/cikarici 1618317639
+FL C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/proje.vhd 2021/04/13.15:40:28 P.20131013
+EN work/proje 1618317641 \
+      FL C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/proje.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/proje/Behavioral 1618317642 \
+      FL C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/proje.vhd \
+      EN work/proje 1618317641 CP cikarici

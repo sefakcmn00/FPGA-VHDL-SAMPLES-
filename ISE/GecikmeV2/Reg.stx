@@ -1,0 +1,38 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/ASUS/Gecikme_7/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/ASUS/Gecikme_7/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd" in Library work.
+Architecture archi of Entity reg is up to date.
+ERROR:HDLParsers:3312 - "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd" Line 26. Undefined symbol 'boyut'.
+ERROR:HDLParsers:1209 - "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd" Line 26. boyut: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd" Line 31. Undefined symbol 'boyut'.
+ERROR:HDLParsers:1209 - "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd" Line 31. boyut: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> 
+
+Total memory usage is 4469428 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

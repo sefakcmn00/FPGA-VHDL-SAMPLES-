@@ -1,0 +1,29 @@
+Command line:
+   Geckme_4LTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49963
+
+Mon Jan 18 12:15:22 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.13 Meg
+
+ Total Signals          : 21
+ Total Nets             : 11
+ Total Signal Drivers   : 6
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 6
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 372
+Total Line Count : 22
+
+ Total Simulation Time: 0.21875 sec
+
+ Current Memory Usage: 5150.13 Meg
+
+Mon Jan 18 12:15:47 2021
+

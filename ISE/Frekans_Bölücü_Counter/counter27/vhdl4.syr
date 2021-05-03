@@ -1,0 +1,455 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: vhdl4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vhdl4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vhdl4"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : vhdl4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd" in Library work.
+Entity <frekans_bolucu> compiled.
+Entity <frekans_bolucu> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd" in Library work.
+Architecture behavioral of Entity vhdl4 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <vhdl4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Frekans_bolucu> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <vhdl4> in library <work> (Architecture <behavioral>).
+Entity <vhdl4> analyzed. Unit <vhdl4> generated.
+
+Analyzing Entity <Frekans_bolucu> in library <work> (Architecture <behavioral>).
+Entity <Frekans_bolucu> analyzed. Unit <Frekans_bolucu> generated.
+
+Analyzing Entity <counter> in library <work> (Architecture <behavioral>).
+Entity <counter> analyzed. Unit <counter> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Frekans_bolucu>.
+    Related source file is "C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd".
+    Found 32-bit up counter for signal <S1>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Frekans_bolucu> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is "C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd".
+    Found 2-bit up counter for signal <S1>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <vhdl4>.
+    Related source file is "C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd".
+Unit <vhdl4> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <fb/S1_27> of sequential type is unconnected in block <vhdl4>.
+WARNING:Xst:2677 - Node <fb/S1_28> of sequential type is unconnected in block <vhdl4>.
+WARNING:Xst:2677 - Node <fb/S1_29> of sequential type is unconnected in block <vhdl4>.
+WARNING:Xst:2677 - Node <fb/S1_30> of sequential type is unconnected in block <vhdl4>.
+WARNING:Xst:2677 - Node <fb/S1_31> of sequential type is unconnected in block <vhdl4>.
+
+Optimizing unit <vhdl4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vhdl4, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vhdl4.ngr
+Top Level Output File Name         : vhdl4
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 4
+
+Cell Usage :
+# BELS                             : 85
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 26
+#      LUT2                        : 1
+#      MUXCY                       : 26
+#      VCC                         : 1
+#      XORCY                       : 27
+# FlipFlops/Latches                : 29
+#      FDR                         : 29
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3
+#      IBUF                        : 1
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       16  out of   4656     0%  
+ Number of Slice Flip Flops:             29  out of   9312     0%  
+ Number of 4 input LUTs:                 30  out of   9312     0%  
+ Number of IOs:                           4
+ Number of bonded IOBs:                   4  out of    232     1%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+G_clk                              | BUFGP                  | 27    |
+fb/S1_26                           | NONE(c1/S1_0)          | 2     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.882ns (Maximum Frequency: 204.834MHz)
+   Minimum input arrival time before clock: 4.514ns
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'G_clk'
+  Clock period: 4.882ns (frequency: 204.834MHz)
+  Total number of paths / destination ports: 378 / 27
+-------------------------------------------------------------------------
+Delay:               4.882ns (Levels of Logic = 27)
+  Source:            fb/S1_1 (FF)
+  Destination:       fb/S1_26 (FF)
+  Source Clock:      G_clk rising
+  Destination Clock: G_clk rising
+
+  Data Path: fb/S1_1 to fb/S1_26
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.591   0.595  fb/S1_1 (fb/S1_1)
+     LUT1:I0->O            1   0.704   0.000  fb/Mcount_S1_cy<1>_rt (fb/Mcount_S1_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  fb/Mcount_S1_cy<1> (fb/Mcount_S1_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<2> (fb/Mcount_S1_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<3> (fb/Mcount_S1_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<4> (fb/Mcount_S1_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<5> (fb/Mcount_S1_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<6> (fb/Mcount_S1_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<7> (fb/Mcount_S1_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<8> (fb/Mcount_S1_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<9> (fb/Mcount_S1_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<10> (fb/Mcount_S1_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<11> (fb/Mcount_S1_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<12> (fb/Mcount_S1_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<13> (fb/Mcount_S1_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<14> (fb/Mcount_S1_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<15> (fb/Mcount_S1_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<16> (fb/Mcount_S1_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<17> (fb/Mcount_S1_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<18> (fb/Mcount_S1_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<19> (fb/Mcount_S1_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<20> (fb/Mcount_S1_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<21> (fb/Mcount_S1_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<22> (fb/Mcount_S1_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<23> (fb/Mcount_S1_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  fb/Mcount_S1_cy<24> (fb/Mcount_S1_cy<24>)
+     MUXCY:CI->O           0   0.059   0.000  fb/Mcount_S1_cy<25> (fb/Mcount_S1_cy<25>)
+     XORCY:CI->O           1   0.804   0.000  fb/Mcount_S1_xor<26> (Result<26>)
+     FDR:D                     0.308          fb/S1_26
+    ----------------------------------------
+    Total                      4.882ns (4.287ns logic, 0.595ns route)
+                                       (87.8% logic, 12.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'fb/S1_26'
+  Clock period: 2.554ns (frequency: 391.543MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.554ns (Levels of Logic = 1)
+  Source:            c1/S1_0 (FF)
+  Destination:       c1/S1_0 (FF)
+  Source Clock:      fb/S1_26 rising
+  Destination Clock: fb/S1_26 rising
+
+  Data Path: c1/S1_0 to c1/S1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.531  c1/S1_0 (c1/S1_0)
+     INV:I->O              1   0.704   0.420  c1/Mcount_S1_xor<0>11_INV_0 (Result<0>1)
+     FDR:D                     0.308          c1/S1_0
+    ----------------------------------------
+    Total                      2.554ns (1.603ns logic, 0.951ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'G_clk'
+  Total number of paths / destination ports: 27 / 27
+-------------------------------------------------------------------------
+Offset:              4.514ns (Levels of Logic = 2)
+  Source:            start (PAD)
+  Destination:       fb/S1_0 (FF)
+  Destination Clock: G_clk rising
+
+  Data Path: start to fb/S1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  start_IBUF (start_IBUF)
+     INV:I->O             29   0.704   1.261  start_inv1_INV_0 (start_inv)
+     FDR:R                     0.911          fb/S1_0
+    ----------------------------------------
+    Total                      4.514ns (2.833ns logic, 1.681ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'fb/S1_26'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.514ns (Levels of Logic = 2)
+  Source:            start (PAD)
+  Destination:       c1/S1_0 (FF)
+  Destination Clock: fb/S1_26 rising
+
+  Data Path: start to c1/S1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  start_IBUF (start_IBUF)
+     INV:I->O             29   0.704   1.261  start_inv1_INV_0 (start_inv)
+     FDR:R                     0.911          c1/S1_0
+    ----------------------------------------
+    Total                      4.514ns (2.833ns logic, 1.681ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'fb/S1_26'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            c1/S1_0 (FF)
+  Destination:       cikis<0> (PAD)
+  Source Clock:      fb/S1_26 rising
+
+  Data Path: c1/S1_0 to cikis<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.531  c1/S1_0 (c1/S1_0)
+     OBUF:I->O                 3.272          cikis_0_OBUF (cikis<0>)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.49 secs
+ 
+--> 
+
+Total memory usage is 4497264 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

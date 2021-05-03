@@ -1,0 +1,2 @@
+vhdl work "CounterV2.vhd"
+vhdl work "counterv2_test.vhd"

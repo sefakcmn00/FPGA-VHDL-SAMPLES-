@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/ASUS/Desktop/ISE/CounterV2/CounterV2.vhd 2021/03/29.02:23:10 P.20131013
+EN work/CounterV2 1616973803 FL C:/Users/ASUS/Desktop/ISE/CounterV2/CounterV2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CounterV2/Behavioral 1616973804 \
+      FL C:/Users/ASUS/Desktop/ISE/CounterV2/CounterV2.vhd EN work/CounterV2 1616973803

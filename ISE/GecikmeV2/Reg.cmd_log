@@ -1,0 +1,1 @@
+vhdtdtfi -prj Gecikme_7 -o C:/Users/ASUS/Gecikme_7/Reg.vhi -module Reg -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Gecikme_7.vhd 

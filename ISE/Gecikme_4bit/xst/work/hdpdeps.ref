@@ -1,0 +1,11 @@
+V3 6
+FL C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhd 2021/04/19.13:02:08 P.20131013
+EN work/Reg 1618826535 FL C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg/archi 1618826536 \
+      FL C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhd EN work/Reg 1618826535
+EN work/Geckme_4L2 1618826537 \
+      FL C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhd PB ieee/std_logic_1164 1381692176
+AR work/Geckme_4L2/Behavioral 1618826538 \
+      FL C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhd EN work/Geckme_4L2 1618826537 \
+      CP Reg

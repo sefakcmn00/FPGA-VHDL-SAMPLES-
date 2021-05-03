@@ -1,0 +1,2 @@
+vhdl isim_temp "Multix_4bit.vhd"
+vhdl isim_temp "test.vhd"

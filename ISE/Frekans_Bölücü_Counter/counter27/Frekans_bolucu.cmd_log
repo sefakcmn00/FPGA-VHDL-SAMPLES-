@@ -1,0 +1,1 @@
+vhdtdtfi -prj counter27 -o C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhi -module Frekans_bolucu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Frekans_bolucu.vhd 

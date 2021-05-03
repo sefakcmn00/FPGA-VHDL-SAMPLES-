@@ -1,0 +1,12 @@
+V3 6
+FL C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/bol.vhd 2021/04/06.23:07:20 P.20131013
+EN work/bol 1617739649 FL C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/bol.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bol/Behavioral 1617739650 \
+      FL C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/bol.vhd EN work/bol 1617739649
+FL C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/ikiye_bol.vhd 2021/04/06.23:03:07 P.20131013
+EN work/ikiye_bol 1617739401 \
+      FL C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/ikiye_bol.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ikiye_bol/Behavioral 1617739402 \
+      FL C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/ikiye_bol.vhd EN work/ikiye_bol 1617739401

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="377" delta="unknown" >"C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/test2.vhd" Line 46: Entity port <arg fmt="%s" index="1">giris_3</arg> does not match with type <arg fmt="%s" index="2">std_logic</arg> of component port
+</msg>
+
+<msg type="error" file="HDLCompiler" num="377" delta="unknown" >"C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/test2.vhd" Line 50: Entity port <arg fmt="%s" index="1">bolme</arg> does not match with type <arg fmt="%s" index="2">std_logic</arg> of component port
+</msg>
+
+<msg type="error" file="HDLCompiler" num="377" delta="unknown" >"C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/test2.vhd" Line 51: Entity port <arg fmt="%s" index="1">mod_alma</arg> does not match with type <arg fmt="%s" index="2">std_logic</arg> of component port
+</msg>
+
+<msg type="error" file="HDLCompiler" num="377" delta="unknown" >"C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/test2.vhd" Line 52: Entity port <arg fmt="%s" index="1">rem_alma</arg> does not match with type <arg fmt="%s" index="2">std_logic</arg> of component port
+</msg>
+
+<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">test2</arg> in library <arg fmt="%s" index="2">work</arg> failed
+</msg>
+
+</messages>
+

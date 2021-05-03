@@ -1,0 +1,8 @@
+AR counter behavioral C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd sub00/vhpl07 1617107103
+AR fb behavioral D:/xilinx/vivadoo/vivadodev/counter27/counter27/fb.vhd sub00/vhpl03 1616848053
+EN fb NULL D:/xilinx/vivadoo/vivadodev/counter27/counter27/fb.vhd sub00/vhpl02 1616848052
+EN frekans_bolucu NULL C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd sub00/vhpl04 1617107100
+AR frekans_bolucu behavioral C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd sub00/vhpl05 1617107101
+EN vhdl4 NULL C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd sub00/vhpl00 1617107104
+EN counter NULL C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd sub00/vhpl06 1617107102
+AR vhdl4 behavioral C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd sub00/vhpl01 1617107105

@@ -1,0 +1,31 @@
+V3 18
+FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd 2021/03/27.15:47:20 P.20131013
+EN work/counter 1617107102 \
+      FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/counter/Behavioral 1617107103 \
+      FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/counter.vhd \
+      EN work/counter 1617107102
+FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd 2021/03/30.15:21:47 P.20131013
+EN work/Frekans_bolucu 1617107100 \
+      FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Frekans_bolucu/Behavioral 1617107101 \
+      FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/Frekans_bolucu.vhd \
+      EN work/Frekans_bolucu 1617107100
+FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd 2021/03/30.15:20:17 P.20131013
+EN work/vhdl4 1617107104 \
+      FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/vhdl4/Behavioral 1617107105 \
+      FL C:/Users/ASUS/Desktop/ISE/counter27/counter27/vhdl27.vhd EN work/vhdl4 1617107104 \
+      CP Frekans_bolucu CP counter
+FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/counter.vhd 2021/03/27.15:47:20 P.20131013
+FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/fb.vhd 2021/03/27.14:57:42 P.20131013
+EN work/fb 1616848052 FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/fb.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fb/Behavioral 1616848053 \
+      FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/fb.vhd EN work/fb 1616848052
+FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/Frekans_bolucu.vhd 2021/03/27.15:46:51 P.20131013
+FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd 2021/03/27.15:29:47 P.20131013
+FL D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhdl27.vhd 2021/03/27.15:47:37 P.20131013

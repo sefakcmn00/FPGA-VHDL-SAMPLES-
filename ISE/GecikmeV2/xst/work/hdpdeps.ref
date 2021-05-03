@@ -1,0 +1,10 @@
+V3 6
+FL C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd 2021/01/14.23:31:17 P.20131013
+EN work/Reg 1610959561 FL C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg/archi 1610959562 \
+      FL C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd EN work/Reg 1610959561
+EN work/Gecikme_7 1610959563 \
+      FL C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd PB ieee/std_logic_1164 1381692176
+AR work/Gecikme_7/Behavioral 1610959564 \
+      FL C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd EN work/Gecikme_7 1610959563 CP Reg

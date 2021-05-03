@@ -1,0 +1,3 @@
+vhdl work "Frekans_bolucu.vhd"
+vhdl work "counter.vhd"
+vhdl work "vhdl27.vhd"

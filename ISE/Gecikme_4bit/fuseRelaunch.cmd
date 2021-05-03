@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS/Gecikme_4L2/Geckme_4LTest_isim_beh.exe" -prj "C:/Users/ASUS/Gecikme_4L2/Geckme_4LTest_beh.prj" "work.Geckme_4LTest" 

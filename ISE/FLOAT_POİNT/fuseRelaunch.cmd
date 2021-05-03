@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/test_isim_beh.exe" -prj "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/test_beh.prj" "work.test" 

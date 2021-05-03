@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/ISE/Secici_Devre_1/Multix_4bit.xst" -ofn "C:/Users/ASUS/Desktop/ISE/Secici_Devre_1/Multix_4bit.syr" 

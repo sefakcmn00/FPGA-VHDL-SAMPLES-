@@ -1,0 +1,399 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: Gecikme_7.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Gecikme_7.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Gecikme_7"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Gecikme_7
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd" in Library work.
+Architecture archi of Entity reg is up to date.
+Architecture behavioral of Entity gecikme_7 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Gecikme_7> in library <work> (architecture <behavioral>) with generics.
+	boyut = 32
+
+Analyzing hierarchy for entity <Reg> in library <work> (architecture <archi>) with generics.
+	boyut = 32
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Gecikme_7> in library <work> (Architecture <behavioral>).
+	boyut = 32
+Entity <Gecikme_7> analyzed. Unit <Gecikme_7> generated.
+
+Analyzing generic Entity <Reg> in library <work> (Architecture <archi>).
+	boyut = 32
+Entity <Reg> analyzed. Unit <Reg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reg>.
+    Related source file is "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd".
+    Found 32-bit register for signal <Cikis>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Reg> synthesized.
+
+
+Synthesizing Unit <Gecikme_7>.
+    Related source file is "C:/Users/ASUS/Gecikme_7/Gecikme_7.vhd".
+Unit <Gecikme_7> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 10
+ 32-bit register                                       : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 320
+ Flip-Flops                                            : 320
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Gecikme_7> ...
+
+Optimizing unit <Reg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Gecikme_7, actual ratio is 19.
+
+Final Macro Processing ...
+
+Processing Unit <Gecikme_7> :
+	Found 10-bit shift register for signal <Reg10/Cikis_31>.
+	Found 10-bit shift register for signal <Reg10/Cikis_30>.
+	Found 10-bit shift register for signal <Reg10/Cikis_29>.
+	Found 10-bit shift register for signal <Reg10/Cikis_28>.
+	Found 10-bit shift register for signal <Reg10/Cikis_27>.
+	Found 10-bit shift register for signal <Reg10/Cikis_26>.
+	Found 10-bit shift register for signal <Reg10/Cikis_25>.
+	Found 10-bit shift register for signal <Reg10/Cikis_24>.
+	Found 10-bit shift register for signal <Reg10/Cikis_23>.
+	Found 10-bit shift register for signal <Reg10/Cikis_22>.
+	Found 10-bit shift register for signal <Reg10/Cikis_21>.
+	Found 10-bit shift register for signal <Reg10/Cikis_20>.
+	Found 10-bit shift register for signal <Reg10/Cikis_19>.
+	Found 10-bit shift register for signal <Reg10/Cikis_18>.
+	Found 10-bit shift register for signal <Reg10/Cikis_17>.
+	Found 10-bit shift register for signal <Reg10/Cikis_16>.
+	Found 10-bit shift register for signal <Reg10/Cikis_15>.
+	Found 10-bit shift register for signal <Reg10/Cikis_14>.
+	Found 10-bit shift register for signal <Reg10/Cikis_13>.
+	Found 10-bit shift register for signal <Reg10/Cikis_12>.
+	Found 10-bit shift register for signal <Reg10/Cikis_11>.
+	Found 10-bit shift register for signal <Reg10/Cikis_10>.
+	Found 10-bit shift register for signal <Reg10/Cikis_9>.
+	Found 10-bit shift register for signal <Reg10/Cikis_8>.
+	Found 10-bit shift register for signal <Reg10/Cikis_7>.
+	Found 10-bit shift register for signal <Reg10/Cikis_6>.
+	Found 10-bit shift register for signal <Reg10/Cikis_5>.
+	Found 10-bit shift register for signal <Reg10/Cikis_4>.
+	Found 10-bit shift register for signal <Reg10/Cikis_3>.
+	Found 10-bit shift register for signal <Reg10/Cikis_2>.
+	Found 10-bit shift register for signal <Reg10/Cikis_1>.
+	Found 10-bit shift register for signal <Reg10/Cikis_0>.
+Unit <Gecikme_7> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Shift Registers                                      : 32
+ 10-bit shift register                                 : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Gecikme_7.ngr
+Top Level Output File Name         : Gecikme_7
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 65
+
+Cell Usage :
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 32
+#      FD                          : 32
+# Shift Registers                  : 32
+#      SRL16                       : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 64
+#      IBUF                        : 32
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       18  out of    960     1%  
+ Number of Slice Flip Flops:             32  out of   1920     1%  
+ Number of 4 input LUTs:                 32  out of   1920     1%  
+    Number used as logic:                 0
+    Number used as Shift registers:      32
+ Number of IOs:                          65
+ Number of bonded IOBs:                  65  out of     83    78%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+G_Clk                              | BUFGP                  | 64    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.492ns (Maximum Frequency: 286.369MHz)
+   Minimum input arrival time before clock: 1.829ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'G_Clk'
+  Clock period: 3.492ns (frequency: 286.369MHz)
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Delay:               3.492ns (Levels of Logic = 0)
+  Source:            Reg10/Mshreg_Cikis_31 (FF)
+  Destination:       Reg10/Cikis_31 (FF)
+  Source Clock:      G_Clk rising
+  Destination Clock: G_Clk rising
+
+  Data Path: Reg10/Mshreg_Cikis_31 to Reg10/Cikis_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.224   0.000  Reg10/Mshreg_Cikis_31 (Reg10/Mshreg_Cikis_31)
+     FD:D                      0.268          Reg10/Cikis_31
+    ----------------------------------------
+    Total                      3.492ns (3.492ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'G_Clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              1.829ns (Levels of Logic = 1)
+  Source:            G_Din<31> (PAD)
+  Destination:       Reg10/Mshreg_Cikis_31 (FF)
+  Destination Clock: G_Clk rising
+
+  Data Path: G_Din<31> to Reg10/Mshreg_Cikis_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  G_Din_31_IBUF (G_Din_31_IBUF)
+     SRL16:D                   0.366          Reg10/Mshreg_Cikis_31
+    ----------------------------------------
+    Total                      1.829ns (1.472ns logic, 0.357ns route)
+                                       (80.5% logic, 19.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'G_Clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            Reg10/Cikis_31 (FF)
+  Destination:       G_Dout<31> (PAD)
+  Source Clock:      G_Clk rising
+
+  Data Path: Reg10/Cikis_31 to G_Dout<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.357  Reg10/Cikis_31 (Reg10/Cikis_31)
+     OBUF:I->O                 3.169          G_Dout_31_OBUF (G_Dout<31>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.46 secs
+ 
+--> 
+
+Total memory usage is 4499524 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

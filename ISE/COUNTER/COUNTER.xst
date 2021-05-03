@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ASUS/Desktop/ISE/COUNTER/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ASUS/Desktop/ISE/COUNTER/xst"
+elaborate
+-ifn COUNTER.prj
+-ifmt mixed

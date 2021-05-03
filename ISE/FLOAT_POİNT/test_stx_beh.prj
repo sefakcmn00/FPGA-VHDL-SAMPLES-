@@ -1,0 +1,4 @@
+vhdl isim_temp "ipcore_dir/Carpma.vhd"
+vhdl isim_temp "ipcore_dir/Toplama.vhd"
+vhdl isim_temp "odev3.vhd"
+vhdl isim_temp "test.vhd"

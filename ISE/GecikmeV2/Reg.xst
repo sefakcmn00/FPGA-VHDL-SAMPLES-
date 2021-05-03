@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ASUS/Gecikme_7/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ASUS/Gecikme_7/xst"
+elaborate
+-ifn Reg.prj
+-ifmt mixed

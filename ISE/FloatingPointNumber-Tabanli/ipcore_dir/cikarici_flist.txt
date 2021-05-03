@@ -1,0 +1,14 @@
+# Output products list for <cikarici>
+cikarici.asy
+cikarici.gise
+cikarici.ngc
+cikarici.sym
+cikarici.vhd
+cikarici.vho
+cikarici.xco
+cikarici.xise
+cikarici\doc\floating_point_ds335.pdf
+cikarici\doc\floating_point_v5_0_readme.txt
+cikarici\doc\floating_point_v5_0_vinfo.html
+cikarici_flist.txt
+cikarici_xmdf.tcl

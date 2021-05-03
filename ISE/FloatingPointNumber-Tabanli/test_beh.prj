@@ -1,0 +1,3 @@
+vhdl work "ipcore_dir/cikarici.vhd"
+vhdl work "proje.vhd"
+vhdl work "test.vhd"

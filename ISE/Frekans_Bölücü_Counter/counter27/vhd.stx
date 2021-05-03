@@ -1,0 +1,39 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/xilinx/vivadoo/vivadodev/counter27/counter27/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to D:/xilinx/vivadoo/vivadodev/counter27/counter27/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd" in Library work.
+Entity <frekans_bolucu> compiled.
+ERROR:HDLParsers:164 - "D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd" Line 22. parse error, unexpected EQ, expecting AFFECT or SEMICOLON
+ERROR:HDLParsers:3312 - "D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd" Line 28. Undefined symbol 'S1'.
+ERROR:HDLParsers:1209 - "D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd" Line 28. S1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd" Line 34. Undefined symbol 'S1'.
+ERROR:HDLParsers:1209 - "D:/xilinx/vivadoo/vivadodev/counter27/counter27/vhd.vhd" Line 34. S1: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> 
+
+Total memory usage is 4476368 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

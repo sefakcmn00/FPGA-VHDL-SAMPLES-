@@ -1,0 +1,407 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: proje.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "proje.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "proje"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : proje
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/ipcore_dir/cikarici.vhd" in Library work.
+Architecture cikarici_a of Entity cikarici is up to date.
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/proje.vhd" in Library work.
+Architecture behavioral of Entity proje is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <proje> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <proje> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/proje.vhd" line 29: Instantiating black box module <cikarici>.
+Entity <proje> analyzed. Unit <proje> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <proje>.
+    Related source file is "C:/Users/ASUS/Desktop/ISE/FloatingPointNumber-Tabanli/proje.vhd".
+Unit <proje> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/cikarici.ngc>.
+Loading core <cikarici> for timing and area information for instance <cikarici1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <proje> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block proje, actual ratio is 31.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : proje.ngr
+Top Level Output File Name         : proje
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 99
+
+Cell Usage :
+# BELS                             : 860
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 3
+#      LUT2                        : 80
+#      LUT2_D                      : 1
+#      LUT3                        : 218
+#      LUT3_D                      : 19
+#      LUT3_L                      : 15
+#      LUT4                        : 174
+#      LUT4_D                      : 1
+#      LUT4_L                      : 2
+#      MUXCY                       : 181
+#      MUXF5                       : 55
+#      MUXF6                       : 2
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 102
+# FlipFlops/Latches                : 170
+#      FD                          : 112
+#      FDE                         : 15
+#      FDR                         : 36
+#      FDRS                        : 2
+#      FDS                         : 5
+# Shift Registers                  : 13
+#      SRL16                       : 13
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 98
+#      IBUF                        : 65
+#      OBUF                        : 33
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      298  out of    960    31%  
+ Number of Slice Flip Flops:            170  out of   1920     8%  
+ Number of 4 input LUTs:                530  out of   1920    27%  
+    Number used as logic:               517
+    Number used as Shift registers:      13
+ Number of IOs:                          99
+ Number of bonded IOBs:                  99  out of     83   119% (*) 
+ Number of GCLKs:                         1  out of     24     4%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 183   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.075ns (Maximum Frequency: 123.845MHz)
+   Minimum input arrival time before clock: 11.470ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 8.075ns (frequency: 123.845MHz)
+  Total number of paths / destination ports: 18785 / 117
+-------------------------------------------------------------------------
+Delay:               8.075ns (Levels of Logic = 13)
+  Source:            cikarici1/blk00000075 (FF)
+  Destination:       cikarici1/blk00000184 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: cikarici1/blk00000075 to cikarici1/blk00000184
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  blk00000075 (sig00000160)
+     LUT2:I0->O            1   0.612   0.000  blk0000021a (sig000002fb)
+     MUXCY:S->O            2   0.404   0.000  blk00000162 (sig000002ee)
+     MUXCY:CI->O           2   0.051   0.000  blk00000161 (sig000002f3)
+     MUXCY:CI->O           2   0.051   0.000  blk00000160 (sig000002f4)
+     MUXCY:CI->O          36   0.051   0.000  blk0000015f (sig000002f5)
+     MUXCY:CI->O           2   0.051   0.000  blk0000015e (sig000002f6)
+     MUXCY:CI->O           2   0.051   0.000  blk0000015d (sig000002f7)
+     MUXCY:CI->O           2   0.051   0.000  blk0000015c (sig000002f8)
+     MUXCY:CI->O          46   0.288   1.077  blk0000015b (sig00000388)
+     MUXF5:S->O           23   0.641   1.174  blk00000164 (sig0000030e)
+     LUT3:I0->O            7   0.612   0.754  blk000001f4 (sig00000385)
+     LUT3:I0->O            1   0.612   0.000  blk0000037f (sig0000004d)
+     MUXF5:I1->O           1   0.278   0.000  blk0000037d (sig0000033b)
+     FD:D                      0.268          blk00000184
+    ----------------------------------------
+    Total                      8.075ns (4.539ns logic, 3.536ns route)
+                                       (56.2% logic, 43.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 52085 / 107
+-------------------------------------------------------------------------
+Offset:              11.470ns (Levels of Logic = 30)
+  Source:            X<16> (PAD)
+  Destination:       cikarici1/blk00000081 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: X<16> to cikarici1/blk00000081
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.106   0.721  X_16_IBUF (X_16_IBUF)
+     begin scope: 'cikarici1'
+     LUT2:I0->O            1   0.612   0.000  blk00000272 (sig0000029b)
+     MUXCY:S->O            1   0.404   0.000  blk000000f4 (sig00000292)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f5 (sig00000293)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f6 (sig00000294)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f7 (sig00000295)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f8 (sig00000296)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f9 (sig00000297)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fa (sig00000298)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fb (sig00000299)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fc (sig0000029a)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fd (sig0000028c)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fe (sig0000028d)
+     MUXCY:CI->O           1   0.052   0.000  blk000000ff (sig0000028e)
+     MUXCY:CI->O           1   0.052   0.000  blk00000100 (sig0000028f)
+     MUXCY:CI->O           1   0.051   0.000  blk00000101 (sig00000290)
+     MUXCY:CI->O           1   0.051   0.000  blk00000102 (sig00000291)
+     MUXCY:CI->O           2   0.399   0.532  blk00000103 (sig000002aa)
+     LUT3:I0->O           61   0.612   1.233  blk000001e1 (sig000002b9)
+     LUT3:I0->O            4   0.612   0.651  blk00000265 (sig000001e8)
+     LUT4:I0->O            1   0.612   0.000  blk00000266 (sig000000f1)
+     MUXCY:S->O            2   0.404   0.000  blk0000007e (sig00000107)
+     MUXCY:CI->O           2   0.052   0.000  blk0000007d (sig00000108)
+     MUXCY:CI->O           2   0.052   0.000  blk0000007c (sig00000109)
+     MUXCY:CI->O           2   0.052   0.000  blk0000007b (sig0000010a)
+     MUXCY:CI->O           2   0.052   0.449  blk0000007a (sig0000010b)
+     LUT4:I1->O            1   0.612   0.426  blk0000026c (sig00000101)
+     LUT3:I1->O            1   0.612   0.000  blk00000086 (sig000000fc)
+     MUXF5:I1->O           1   0.278   0.000  blk00000088 (sig0000010e)
+     FD:D                      0.268          blk00000081
+    ----------------------------------------
+    Total                     11.470ns (7.459ns logic, 4.011ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 33 / 33
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 2)
+  Source:            cikarici1/blk000003fb (FF)
+  Destination:       sonuc_hazir (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: cikarici1/blk000003fb to sonuc_hazir
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.357  blk000003fb (rdy)
+     end scope: 'cikarici1'
+     OBUF:I->O                 3.169          sonuc_hazir_OBUF (sonuc_hazir)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.95 secs
+ 
+--> 
+
+Total memory usage is 4513368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

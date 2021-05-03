@@ -1,0 +1,26 @@
+V3 14
+FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Carpma.vhd 2021/05/03.16:16:03 P.20131013
+EN work/Carpma 1620048617 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Carpma.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Carpma/Carpma_a 1620048618 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Carpma.vhd \
+      EN work/Carpma 1620048617
+FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Toplama.vhd 2021/05/03.16:20:59 P.20131013
+EN work/Toplama 1620048619 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Toplama.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Toplama/Toplama_a 1620048620 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Toplama.vhd \
+      EN work/Toplama 1620048619
+FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd 2021/05/03.16:30:04 P.20131013
+EN work/odev3 1620048621 FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/odev3/Behavioral 1620048622 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd EN work/odev3 1620048621 \
+      CP Carpma CP Toplama CP Reg
+EN work/Reg 1620048623 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg/Behavioral 1620048624 \
+      FL C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd EN work/Reg 1620048623

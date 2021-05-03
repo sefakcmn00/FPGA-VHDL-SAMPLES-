@@ -1,0 +1,15 @@
+# Output products list for <Carpma>
+Carpma.asy
+Carpma.gise
+Carpma.ngc
+Carpma.sym
+Carpma.vhd
+Carpma.vho
+Carpma.xco
+Carpma.xise
+Carpma\doc\floating_point_ds335.pdf
+Carpma\doc\floating_point_v5_0_readme.txt
+Carpma\doc\floating_point_v5_0_vinfo.html
+Carpma_flist.txt
+Carpma_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

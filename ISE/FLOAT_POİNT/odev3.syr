@@ -1,0 +1,489 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: odev3.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "odev3.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "odev3"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : odev3
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Carpma.vhd" in Library work.
+Architecture carpma_a of Entity carpma is up to date.
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/ipcore_dir/Toplama.vhd" in Library work.
+Architecture toplama_a of Entity toplama is up to date.
+Compiling vhdl file "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd" in Library work.
+Architecture behavioral of Entity odev3 is up to date.
+Architecture behavioral of Entity reg is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <odev3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reg> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <odev3> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd" line 47: Instantiating black box module <Carpma>.
+WARNING:Xst:2211 - "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd" line 48: Instantiating black box module <Toplama>.
+Entity <odev3> analyzed. Unit <odev3> generated.
+
+Analyzing Entity <Reg> in library <work> (Architecture <behavioral>).
+Entity <Reg> analyzed. Unit <Reg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reg>.
+    Related source file is "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd".
+    Found 32-bit register for signal <Dout>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Reg> synthesized.
+
+
+Synthesizing Unit <odev3>.
+    Related source file is "C:/Users/ASUS/Desktop/ISE/sekizinci_hafta_2/odev3.vhd".
+Unit <odev3> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ 32-bit register                                       : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/Carpma.ngc>.
+Reading core <ipcore_dir/Toplama.ngc>.
+Loading core <Carpma> for timing and area information for instance <Carpma1>.
+Loading core <Toplama> for timing and area information for instance <Toplama1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <odev3> ...
+
+Optimizing unit <Reg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block odev3, actual ratio is 85.
+
+Final Macro Processing ...
+
+Processing Unit <odev3> :
+	Found 4-bit shift register for signal <Reg4/Dout_31>.
+	Found 4-bit shift register for signal <Reg4/Dout_30>.
+	Found 4-bit shift register for signal <Reg4/Dout_29>.
+	Found 4-bit shift register for signal <Reg4/Dout_28>.
+	Found 4-bit shift register for signal <Reg4/Dout_27>.
+	Found 4-bit shift register for signal <Reg4/Dout_26>.
+	Found 4-bit shift register for signal <Reg4/Dout_25>.
+	Found 4-bit shift register for signal <Reg4/Dout_24>.
+	Found 4-bit shift register for signal <Reg4/Dout_23>.
+	Found 4-bit shift register for signal <Reg4/Dout_22>.
+	Found 4-bit shift register for signal <Reg4/Dout_21>.
+	Found 4-bit shift register for signal <Reg4/Dout_20>.
+	Found 4-bit shift register for signal <Reg4/Dout_19>.
+	Found 4-bit shift register for signal <Reg4/Dout_18>.
+	Found 4-bit shift register for signal <Reg4/Dout_17>.
+	Found 4-bit shift register for signal <Reg4/Dout_16>.
+	Found 4-bit shift register for signal <Reg4/Dout_15>.
+	Found 4-bit shift register for signal <Reg4/Dout_14>.
+	Found 4-bit shift register for signal <Reg4/Dout_13>.
+	Found 4-bit shift register for signal <Reg4/Dout_12>.
+	Found 4-bit shift register for signal <Reg4/Dout_11>.
+	Found 4-bit shift register for signal <Reg4/Dout_10>.
+	Found 4-bit shift register for signal <Reg4/Dout_9>.
+	Found 4-bit shift register for signal <Reg4/Dout_8>.
+	Found 4-bit shift register for signal <Reg4/Dout_7>.
+	Found 4-bit shift register for signal <Reg4/Dout_6>.
+	Found 4-bit shift register for signal <Reg4/Dout_5>.
+	Found 4-bit shift register for signal <Reg4/Dout_4>.
+	Found 4-bit shift register for signal <Reg4/Dout_3>.
+	Found 4-bit shift register for signal <Reg4/Dout_2>.
+	Found 4-bit shift register for signal <Reg4/Dout_1>.
+	Found 4-bit shift register for signal <Reg4/Dout_0>.
+Unit <odev3> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Shift Registers                                      : 32
+ 4-bit shift register                                  : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : odev3.ngr
+Top Level Output File Name         : odev3
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 131
+
+Cell Usage :
+# BELS                             : 2683
+#      GND                         : 3
+#      INV                         : 7
+#      LUT1                        : 11
+#      LUT2                        : 103
+#      LUT2_D                      : 1
+#      LUT3                        : 484
+#      LUT3_D                      : 19
+#      LUT3_L                      : 16
+#      LUT4                        : 467
+#      LUT4_D                      : 1
+#      LUT4_L                      : 3
+#      MULT_AND                    : 225
+#      MUXCY                       : 690
+#      MUXF5                       : 57
+#      MUXF6                       : 2
+#      MUXF7                       : 1
+#      VCC                         : 3
+#      XORCY                       : 590
+# FlipFlops/Latches                : 634
+#      FD                          : 168
+#      FDE                         : 153
+#      FDR                         : 39
+#      FDRE                        : 234
+#      FDRS                        : 34
+#      FDS                         : 6
+# Shift Registers                  : 53
+#      SRL16                       : 53
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 130
+#      IBUF                        : 65
+#      OBUF                        : 65
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      769  out of    960    80%  
+ Number of Slice Flip Flops:            634  out of   1920    33%  
+ Number of 4 input LUTs:               1165  out of   1920    60%  
+    Number used as logic:              1112
+    Number used as Shift registers:      53
+ Number of IOs:                         131
+ Number of bonded IOBs:                 131  out of     83   157% (*) 
+ Number of GCLKs:                         1  out of     24     4%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 687   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 10.911ns (Maximum Frequency: 91.652MHz)
+   Minimum input arrival time before clock: 5.598ns
+   Maximum output required time after clock: 4.326ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 10.911ns (frequency: 91.652MHz)
+  Total number of paths / destination ports: 236144 / 482
+-------------------------------------------------------------------------
+Delay:               10.911ns (Levels of Logic = 29)
+  Source:            Carpma1/blk00000014 (FF)
+  Destination:       Toplama1/blk00000081 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: Carpma1/blk00000014 to Toplama1/blk00000081
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             7   0.514   0.754  blk00000014 (result<16>)
+     end scope: 'Carpma1'
+     begin scope: 'Toplama1'
+     LUT2:I0->O            1   0.612   0.000  blk00000271 (sig0000029b)
+     MUXCY:S->O            1   0.404   0.000  blk000000f4 (sig00000292)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f5 (sig00000293)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f6 (sig00000294)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f7 (sig00000295)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f8 (sig00000296)
+     MUXCY:CI->O           1   0.052   0.000  blk000000f9 (sig00000297)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fa (sig00000298)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fb (sig00000299)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fc (sig0000029a)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fd (sig0000028c)
+     MUXCY:CI->O           1   0.052   0.000  blk000000fe (sig0000028d)
+     MUXCY:CI->O           1   0.052   0.000  blk000000ff (sig0000028e)
+     MUXCY:CI->O           1   0.052   0.000  blk00000100 (sig0000028f)
+     MUXCY:CI->O           1   0.051   0.000  blk00000101 (sig00000290)
+     MUXCY:CI->O           1   0.051   0.000  blk00000102 (sig00000291)
+     MUXCY:CI->O           2   0.399   0.532  blk00000103 (sig000002aa)
+     LUT3:I0->O           61   0.612   1.233  blk00000273 (sig000003d4)
+     LUT3:I0->O            4   0.612   0.651  blk00000264 (sig000001e8)
+     LUT4:I0->O            1   0.612   0.000  blk00000265 (sig000000f1)
+     MUXCY:S->O            2   0.404   0.000  blk0000007e (sig00000107)
+     MUXCY:CI->O           2   0.052   0.000  blk0000007d (sig00000108)
+     MUXCY:CI->O           2   0.052   0.000  blk0000007c (sig00000109)
+     MUXCY:CI->O           2   0.052   0.000  blk0000007b (sig0000010a)
+     MUXCY:CI->O           2   0.052   0.449  blk0000007a (sig0000010b)
+     LUT4:I1->O            1   0.612   0.426  blk0000026b (sig00000101)
+     LUT3:I1->O            1   0.612   0.000  blk00000086 (sig000000fc)
+     MUXF5:I1->O           1   0.278   0.000  blk00000088 (sig0000010e)
+     FD:D                      0.268          blk00000081
+    ----------------------------------------
+    Total                     10.911ns (6.867ns logic, 4.044ns route)
+                                       (62.9% logic, 37.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 8656 / 281
+-------------------------------------------------------------------------
+Offset:              5.598ns (Levels of Logic = 28)
+  Source:            Se<0> (PAD)
+  Destination:       Carpma1/blk00000170 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Se<0> to Carpma1/blk00000170
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.106   0.922  Se_0_IBUF (Se_0_IBUF)
+     begin scope: 'Carpma1'
+     MULT_AND:I1->LO       0   0.645   0.000  blk000007db (sig000005ad)
+     MUXCY:DI->O           1   0.773   0.000  blk000007dc (sig0000059b)
+     MUXCY:CI->O           1   0.052   0.000  blk000007df (sig0000059c)
+     MUXCY:CI->O           1   0.052   0.000  blk000007e3 (sig0000059d)
+     MUXCY:CI->O           1   0.052   0.000  blk000007e7 (sig0000059e)
+     MUXCY:CI->O           1   0.051   0.000  blk000007eb (sig0000059f)
+     MUXCY:CI->O           1   0.051   0.000  blk000007ef (sig000005a0)
+     MUXCY:CI->O           1   0.051   0.000  blk000007f3 (sig000005a1)
+     MUXCY:CI->O           1   0.051   0.000  blk000007f7 (sig000005a2)
+     MUXCY:CI->O           1   0.051   0.000  blk000007fb (sig0000058b)
+     MUXCY:CI->O           1   0.051   0.000  blk000007ff (sig0000058c)
+     MUXCY:CI->O           1   0.051   0.000  blk00000803 (sig0000058d)
+     MUXCY:CI->O           1   0.051   0.000  blk00000807 (sig0000058e)
+     MUXCY:CI->O           1   0.051   0.000  blk0000080b (sig0000058f)
+     MUXCY:CI->O           1   0.051   0.000  blk0000080f (sig00000590)
+     MUXCY:CI->O           1   0.051   0.000  blk00000813 (sig00000591)
+     MUXCY:CI->O           1   0.051   0.000  blk00000817 (sig00000592)
+     MUXCY:CI->O           1   0.051   0.000  blk0000081b (sig00000593)
+     MUXCY:CI->O           1   0.051   0.000  blk0000081f (sig00000594)
+     MUXCY:CI->O           1   0.051   0.000  blk00000823 (sig00000595)
+     MUXCY:CI->O           1   0.051   0.000  blk00000827 (sig00000596)
+     MUXCY:CI->O           1   0.051   0.000  blk0000082b (sig00000597)
+     MUXCY:CI->O           1   0.051   0.000  blk0000082f (sig00000598)
+     MUXCY:CI->O           1   0.051   0.000  blk00000833 (sig00000599)
+     MUXCY:CI->O           0   0.051   0.000  blk00000837 (sig0000059a)
+     XORCY:CI->O           1   0.699   0.000  blk0000083b (sig000005e4)
+     FDRE:D                    0.268          blk000003a3
+    ----------------------------------------
+    Total                      5.598ns (4.675ns logic, 0.922ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 65 / 65
+-------------------------------------------------------------------------
+Offset:              4.326ns (Levels of Logic = 2)
+  Source:            Carpma1/blk00000015 (FF)
+  Destination:       Ko<21> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: Carpma1/blk00000015 to Ko<21>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             8   0.514   0.643  blk00000015 (result<21>)
+     end scope: 'Carpma1'
+     OBUF:I->O                 3.169          Ko_21_OBUF (Ko<21>)
+    ----------------------------------------
+    Total                      4.326ns (3.683ns logic, 0.643ns route)
+                                       (85.1% logic, 14.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.91 secs
+ 
+--> 
+
+Total memory usage is 4529604 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

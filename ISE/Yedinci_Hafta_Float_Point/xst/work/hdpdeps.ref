@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/ASUS/Desktop/ISE/Yedinci_Hafta_Float_Point/ipcore_dir/cikarici.vhd 2021/05/02.21:07:00 P.20131013
+EN work/cikarici 1619979442 \
+      FL C:/Users/ASUS/Desktop/ISE/Yedinci_Hafta_Float_Point/ipcore_dir/cikarici.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cikarici/cikarici_a 1619979443 \
+      FL C:/Users/ASUS/Desktop/ISE/Yedinci_Hafta_Float_Point/ipcore_dir/cikarici.vhd \
+      EN work/cikarici 1619979442
+FL C:/Users/ASUS/Desktop/ISE/Yedinci_Hafta_Float_Point/sil.vhd 2021/05/02.21:16:39 P.20131013
+EN work/sil 1619979444 \
+      FL C:/Users/ASUS/Desktop/ISE/Yedinci_Hafta_Float_Point/sil.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sil/Behavioral 1619979445 \
+      FL C:/Users/ASUS/Desktop/ISE/Yedinci_Hafta_Float_Point/sil.vhd EN work/sil 1619979444 \
+      CP cikarici

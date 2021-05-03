@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+vhdtdtfi -prj Gecikme_4L2 -o C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhi -module Geckme_4L2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Geckme_4L2.vhd 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.xst" -ofn "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.syr" 

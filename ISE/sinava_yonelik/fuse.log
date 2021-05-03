@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS/Desktop/ISE/sinava_yonelik/test1_isim_beh.exe -prj C:/Users/ASUS/Desktop/ISE/sinava_yonelik/test1_beh.prj work.test1 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ASUS/Desktop/ISE/sinava_yonelik/sayici_devresi.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS/Desktop/ISE/sinava_yonelik/test1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity sayici_devresi [sayici_devresi_default]
+Compiling architecture behavior of entity test1
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Sistem belirtilen yolu bulamýyor, "isim\test1_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/ASUS/Desktop/ISE/sinava_yonelik/test1_isim_beh.exe
+Fuse Memory Usage: 34312 KB
+Fuse CPU Usage: 453 ms

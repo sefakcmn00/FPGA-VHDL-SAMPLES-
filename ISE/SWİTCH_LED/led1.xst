@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ASUS/Desktop/ISE/led/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ASUS/Desktop/ISE/led/xst"
+elaborate
+-ifn led1.prj
+-ifmt mixed

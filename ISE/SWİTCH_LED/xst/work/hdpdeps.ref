@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/ASUS/Desktop/ISE/led/led1.vhd 2021/04/01.00:00:02 P.20131013
+EN work/led1 1617224406 FL C:/Users/ASUS/Desktop/ISE/led/led1.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/led1/Behavioral 1617224407 \
+      FL C:/Users/ASUS/Desktop/ISE/led/led1.vhd EN work/led1 1617224406

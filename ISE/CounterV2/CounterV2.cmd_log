@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/ISE/CounterV2/CounterV2.xst" -ofn "C:/Users/ASUS/Desktop/ISE/CounterV2/CounterV2.syr" 

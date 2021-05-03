@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ASUS/Gecikme_4L2/Geckme_4LTest_isim_beh.exe -prj C:/Users/ASUS/Gecikme_4L2/Geckme_4LTest_beh.prj work.Geckme_4LTest 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ASUS/Gecikme_4L2/Geckme_4L2.vhd" into library work
+Parsing VHDL file "C:/Users/ASUS/Gecikme_4L2/Geckme_4LTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture archi of entity Reg [reg_default]
+Compiling architecture behavioral of entity Geckme_4L2 [geckme_4l2_default]
+Compiling architecture behavior of entity geckme_4ltest
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/ASUS/Gecikme_4L2/Geckme_4LTest_isim_beh.exe
+Fuse Memory Usage: 30424 KB
+Fuse CPU Usage: 499 ms

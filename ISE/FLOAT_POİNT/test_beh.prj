@@ -1,0 +1,4 @@
+vhdl work "ipcore_dir/Carpma.vhd"
+vhdl work "ipcore_dir/Toplama.vhd"
+vhdl work "odev3.vhd"
+vhdl work "test.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS/Desktop/ISE/COUNTER/counter_test_isim_beh.exe" -prj "C:/Users/ASUS/Desktop/ISE/COUNTER/counter_test_beh.prj" "work.counter_test" 

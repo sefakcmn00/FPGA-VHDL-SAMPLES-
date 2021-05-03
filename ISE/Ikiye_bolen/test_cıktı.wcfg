@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ASUS/Desktop/ISE/Ikiye_bolen/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sayi_16b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sayi_16b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sayi_16b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sayi1_8b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sayi1_8b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sayi1_8b[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sayi2_8b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sayi2_8b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sayi2_8b[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

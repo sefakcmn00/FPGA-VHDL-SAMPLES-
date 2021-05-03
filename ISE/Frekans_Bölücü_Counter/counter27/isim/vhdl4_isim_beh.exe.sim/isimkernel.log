@@ -1,0 +1,29 @@
+Command line:
+   vhdl4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49355
+
+Tue Mar 30 15:38:28 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5804.49 Meg
+
+ Total Signals          : 12
+ Total Nets             : 39
+ Total Signal Drivers   : 4
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 4
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 417
+Total Line Count : 10
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5332.63 Meg
+
+Tue Mar 30 15:40:06 2021
+

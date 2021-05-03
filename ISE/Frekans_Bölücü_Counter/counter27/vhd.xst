@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx/vivadoo/vivadodev/counter27/counter27/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx/vivadoo/vivadodev/counter27/counter27/xst"
+elaborate
+-ifn vhd.prj
+-ifmt mixed

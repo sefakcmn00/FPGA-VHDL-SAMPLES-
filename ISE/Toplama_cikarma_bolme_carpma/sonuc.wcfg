@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/test/giris_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">giris_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">giris_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/giris_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">giris_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">giris_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/toplama" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">toplama[3:0]</obj_property>
+      <obj_property name="ObjectShortName">toplama[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/cikarma" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cikarma[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cikarma[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/ekleme" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ekleme[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ekleme[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

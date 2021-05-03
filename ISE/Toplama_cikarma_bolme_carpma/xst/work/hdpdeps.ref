@@ -1,0 +1,15 @@
+V3 6
+FL C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/matematik.vhd 2021/04/07.02:47:41 P.20131013
+EN work/matematik 1617752874 \
+      FL C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/matematik.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/matematik/Behavioral 1617752875 \
+      FL C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/matematik.vhd \
+      EN work/matematik 1617752874
+FL C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/oparatorler.vhd 2021/04/07.01:55:14 P.20131013
+EN work/oparatorler 1617749717 \
+      FL C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/oparatorler.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/oparatorler/Behavioral 1617749718 \
+      FL C:/Users/ASUS/Desktop/ISE/Toplama_cikarma_bolme_carpma/oparatorler.vhd \
+      EN work/oparatorler 1617749717
